@@ -11,7 +11,7 @@ exports.run = (client, message) => {
     .setColor(0xD97634)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
-    .setDescription('Destek Almak Icin Destek Sunucumuz : https://discord.gg/6vHupD');
+    .setDescription('Destek Almak Icin Destek Sunucumuz : https://discord.gg/6S5zECJ');
     return message.author.sendEmbed(pingozel)
 };
 
